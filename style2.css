@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'NeueHaasUnicaPro-Medium';
+    src: url(./font/NeueHaasUnicaPro-Medium.ttf);
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.navbar {
+    position: relative;
+    width: 100%;
+    height: 15%;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+.navbar ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10vh;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-family: "NeueHaasUnicaPro-Medium", sans-serif;
+    color: white;
+   
+}
+.navbar h1 {
+    margin-left: 10vh;
+    font-size: 60px;
+    font-family: "NeueHaasUnicaPro-Medium", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    margin-left: 100px;
+    
+}
+.navbar h1 span{
+    color:orange;
+    font-family: "NeueHaasUnicaPro-Medium", sans-serif;
+    font-weight: 500;
+}
+
+.left{
+    width: 50%;
+    height: 50%;
+    margin-left: -5%;
+    margin-top: 10%;
+}
+
+.left .pure{
+    position: relative;
+    font-family: "Satisfy", cursive;
+    color: rgb(241, 163, 60);
+    font-size: 10vh;
+    margin-left:50%;
+    margin-top: 20vh;
+    font-style: italic;
+}
+
+.left .cuteness{
+    margin-left:52%;
+    margin-top: -5vh;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 90px;
+    
+}
+.left .dot{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+.left .info{
+    height: 15%;
+    width: 50%;
+    display: flex;
+    margin-left: 53%;
+    margin-top: 2%;
+}
+
+.left .leftdate{
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+}
+.left .leftdate h2,
+.left .leftdate span {
+    display: inline;
+    font-family: "Roboto", sans-serif;
+}
+
+.left .leftdate h2{
+    color: rgb(244, 179, 94);
+}
+.left .leftdate span {
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+    
+}
+.left .rightinfo{
+    height: 100%;
+    width: 60%;
+}
+.left .rightinfo p{
+    margin-left: 10px;
+    line-height: 170%;
+    color: gray;
+    font-family: "Poppins", sans-serif;
+    font-weight: 250;
+    font-size: 15px;
+}
+
+
+.right{
+    width: 50%;
+    height: 15%; 
+}
+.right img {
+    max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
+    position: absolute; /* Position it relative to its parent */
+    top: 45%; /* Align to the top */
+    transform: translateY(-50%); /* Center vertically */
+    right: 300px; 
+    height: 570px;
+}
+.navbar i{
+    color: white;
+    margin-left: 45%;
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .bottom-left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: gray;
+    font-family: "Poppins", sans-serif;
+    margin-left: 12vh;
+    margin-bottom: 5vh;
+    opacity: 50%;
+  }
+
+  .bottom-center{
+    position: absolute;
+    bottom: 0;
+    color: gray;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 400%;
+    margin-bottom: 4vh;
+    margin-left: 45%;
+  }
+  
+  .bottom-center span{
+    color: orange;
+    opacity: 70%;
+  }
+
+  .bottom-right img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 12vh;
+    margin-bottom: 5vh;
+    opacity: 70%;
+    height: 20px;
+    width: 20px;
+  }
+
+  .top-right img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 12vh;
+    margin-top: 10vh;
+    height: 18px;
+    width: 50px;
+  }
